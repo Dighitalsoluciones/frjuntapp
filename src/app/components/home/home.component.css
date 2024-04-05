@@ -1,3 +1,7 @@
+* {
+  user-select: none;
+}
+
 .gradient {
   background-color: #1c19c9;
   height: 170px;
@@ -69,16 +73,16 @@ ul {
   list-style: none;
 }
 
-.example-2 {
+.ico-2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.example-2 .icon-content {
+.ico-2 .icon-content {
   margin: 0 10px;
   position: relative;
 }
-.example-2 .icon-content .tooltip {
+.ico-2 .icon-content .tooltip {
   position: absolute;
   top: -30px;
   left: 50%;
@@ -91,12 +95,12 @@ ul {
   font-size: 14px;
   transition: all 0.3s ease;
 }
-.example-2 .icon-content:hover .tooltip {
+.ico-2 .icon-content:hover .tooltip {
   opacity: 1;
   visibility: visible;
   top: -50px;
 }
-.example-2 .icon-content a {
+.ico-2 .icon-content a {
   position: relative;
   overflow: hidden;
   display: flex;
@@ -109,19 +113,19 @@ ul {
   background-color: #fff;
   transition: all 0.3s ease-in-out;
 }
-.example-2 .icon-content a:hover {
+.ico-2 .icon-content a:hover {
   box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
 }
-.example-2 .icon-content a svg {
+.ico-2 .icon-content a svg {
   position: relative;
   z-index: 1;
   width: 30px;
   height: 30px;
 }
-.example-2 .icon-content a:hover {
+.ico-2 .icon-content a:hover {
   color: white;
 }
-.example-2 .icon-content a .filled {
+.ico-2 .icon-content a .filled {
   position: absolute;
   top: auto;
   bottom: 0;
@@ -131,17 +135,17 @@ ul {
   background-color: #000;
   transition: all 0.3s ease-in-out;
 }
-.example-2 .icon-content a:hover .filled {
+.ico-2 .icon-content a:hover .filled {
   height: 100%;
 }
 
-.example-2 .icon-content a[data-social="linkedin"] .filled,
-.example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+.ico-2 .icon-content a[data-social="linkedin"] .filled,
+.ico-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
   background-color: #0274b3;
 }
 
-.example-2 .icon-content a[data-social="instagram"] .filled,
-.example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
+.ico-2 .icon-content a[data-social="instagram"] .filled,
+.ico-2 .icon-content a[data-social="instagram"] ~ .tooltip {
   background: linear-gradient(
     45deg,
     #405de6,
