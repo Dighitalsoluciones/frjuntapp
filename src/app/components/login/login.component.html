@@ -1,0 +1,40 @@
+<div class="login-container text-center">
+    <div class="loginbox bg-white">
+        <div class="text-center">
+            <img class="logo"
+                src="https://res.cloudinary.com/dighitalsoluciones/image/upload/v1712252956/OTRAS%20APPS/APP%20JUNTAPP/Logo_JuntApp_png_qnc2id.png">
+        </div>
+        <div class="loginbox-title">LOGIN</div>
+        <div class="loginbox-social">
+            <div class="social-title">Conectar con Google</div>
+            <div class="social-buttons">
+                <a href="" class="button-google">
+                    <i class="social-icon fa fa-google-plus"></i>
+                </a>
+            </div>
+        </div>
+        <div class="loginbox-or">
+            <div class="or-line"></div>
+            <div class="or">O</div>
+        </div>
+        <div class="loginbox-textbox">
+            <input type="text" class="form-control" placeholder="Email">
+        </div>
+        <div class="loginbox-textbox">
+            <input type="text" class="form-control" placeholder="Contraseña">
+        </div>
+        <div class="text-center">
+            <a data-bs-toggle="modal" data-bs-target="#modal2" style="cursor: pointer;">Olvidaste tu contraseña?</a>
+        </div>
+        <div class="loginbox-submit">
+            <input type="button" class="btn btn-primary btn-block" value="Login">
+        </div>
+        <div class="loginbox-signup">
+            <a data-bs-toggle="modal" data-bs-target="#modal1">Registrarme</a>
+        </div>
+    </div>
+    <div>
+        <app-modal-new-account />
+        <app-modal-forgot-pass />
+    </div>
+</div>
