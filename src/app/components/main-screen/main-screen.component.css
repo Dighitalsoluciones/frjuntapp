@@ -84,7 +84,7 @@ body {
   z-index: 98;
 }
 
-/* Inicio Boton Modo Juntada */
+/* Inicio Estilo botonera (button-box) */
 button {
   font-family: inherit;
   font-size: 18px;
@@ -144,4 +144,4 @@ button:hover svg {
   transform: rotate(45deg);
 }
 
-/* Fin Boton Modo Juntada */
+/* Fin Estilo botonera (button-box) */

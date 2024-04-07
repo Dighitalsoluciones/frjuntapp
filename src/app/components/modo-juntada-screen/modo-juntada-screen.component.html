@@ -14,27 +14,22 @@
                         src="https://res.cloudinary.com/dighitalsoluciones/image/upload/o_9/v1712253651/OTRAS%20APPS/APP%20JUNTAPP/Logo-solo-ico_abqj6e.png">
                 </div>
                 <div class="button-box">
-                    <button routerLink="/juntada">
+                    <button data-bs-toggle="modal" data-bs-target="#modalNuevaJuntada">
                         <div class="svg-wrapper-1">
                             <div class="svg-wrapper"></div>
                         </div>
-                        <span>Modo Juntada</span>
+                        <span>Nueva</span>
                     </button>
                     <button>
                         <div class="svg-wrapper-1">
                             <div class="svg-wrapper"></div>
                         </div>
-                        <span>Modo Vacaciones</span>
-                    </button>
-                    <button>
-                        <div class="svg-wrapper-1">
-                            <div class="svg-wrapper"></div>
-                        </div>
-                        <span>Modo Salida</span>
+                        <span>Historial</span>
                     </button>
                 </div>
                 <app-footer-navigation />
             </div>
         </div>
+        <app-modal-nueva-juntada />
     </div>
 </div>
